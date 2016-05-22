@@ -1,0 +1,119 @@
+﻿body {
+    background-color: #e6e6e6;
+}
+/*Master page*/
+.master-ID{
+    float:left;
+    width: 50%;
+    height: 200px;
+    color: blue;
+    background-color: #bfbfbf;
+    text-align: center;
+    text-shadow: 30px 20px #808080;
+}
+.master-Image {
+    float: left;
+    width: 49%;
+    height:200px;
+    background-color: #bfbfbf;
+    text-align: center;
+}
+#Image1{
+    position: relative;
+    top:5%;
+}
+.clear {
+    clear: both;
+}
+/*Master page ends*/
+
+/*Index page*/
+.left{
+    width: 30%;
+    float: left;
+    text-align:center;
+}
+#IndexDropDownList{
+    position: relative;
+    top: 50px;
+    width:300px;
+}
+.right {
+    border-left: solid;
+    padding-left:20px;
+    width: 70%;
+    float: right;
+}
+
+/*Index page ends*/
+
+/*Update page*/
+.update-left {
+    float: left;
+    width: 45%;
+    height: 350px;
+    padding-left:20px;
+    padding-top:20px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+#addButton {
+    position:relative;
+    left: 100px;
+    width: 250px;
+    background-color: green;
+    border-bottom-color: black;
+}
+
+.update-right {
+    float: right;
+    width: 45%;
+    height: 350px;
+    padding-left:20px;
+    padding-top:20px;
+    margin-right:20px;
+    text-align:center;
+    margin-bottom: 60px;
+}
+#removeButton {
+    width: 250px;
+    background-color: red;
+    border-bottom-color: black;
+}
+#UpdateDropDownList {
+    width: 350px;
+}
+#remove-legend {
+    text-align:left;
+}
+/*Update page ends*/
+
+
+/*Selection page*/
+.selection-left {
+    float: left;
+    width: 45%;
+    height: 350px;
+    padding-left:20px;
+    padding-top:20px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+#GenreButton {
+    width: 250px;
+    border-bottom-color: black;
+}
+.selection-right {
+    float: right;
+    width: 45%;
+    height: 350px;
+    padding-left:20px;
+    padding-top:20px;
+    margin-right:20px;
+    margin-bottom: 60px;
+}
+#directorDropDownList {
+    width: 350px;
+    text-align:center;
+}
+/*Selection page ends*/
